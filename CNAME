@@ -1,1 +1,5 @@
-frostweb.in
+# from your website directory on your local machine
+$ echo "frostweb.in" >> CNAME # where "<your-domain>" is your domain
+$ git add CNAME
+$ git commit -m 'Add CNAME'
+$ git push origin master
